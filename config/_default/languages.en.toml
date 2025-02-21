@@ -1,0 +1,13 @@
+title = 'SaltWater'
+
+contentDir = 'content/en'
+languageName = 'English'
+languageCode = 'en-US'
+
+copyright = 'All rights reserved'
+
+weight = 2
+
+[params]
+    author = 'NotHimmel'
+    description = '🏞'

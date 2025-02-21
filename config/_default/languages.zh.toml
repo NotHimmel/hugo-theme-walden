@@ -1,0 +1,13 @@
+title = 'SaltWater'
+
+contentDir = 'content/zh'
+languageName = '简体中文'
+languageCode = 'zh-Hans-CN'
+
+copyright = '版权所有'
+
+weight = 1
+
+[params]
+    author = 'NotHimmel'
+    description = '🏞'
