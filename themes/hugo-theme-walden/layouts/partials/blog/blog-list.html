@@ -1,17 +1,23 @@
+{{/* 分页循环：遍历当前分页中的文章页面 */}}
 {{ range .Paginator.Pages }}
 <div class="card-post-container">
     <section class="card-post">
+        {{/* 文章标题链接到全文页面 */}}
         <div class="card-post-title">
             <a href="{{.Permalink}}"><b>{{ .Title }}</b></a>
         </div>
+        {{/* 自动生成的摘要内容（默认截取前70词） */}}
         {{ .Summary }}
+        {{/* 文章元信息区块 */}}
         <div class="card-post-meta">
             <span>
                 <i class="bi bi-calendar3"></i>
+                {{/* 使用 Go 特有的时间格式语法 */}}
                 {{.Date.Format "Jan 2, 2006"}}
             </span>
             <span>
                 <i class="bi bi-person-circle"></i>
+                {{/* 优先显示文章作者，无则显示站点默认作者 */}}
                 {{ with .Params.author }}
                     {{ . }}
                 {{ else }}

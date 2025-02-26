@@ -5,6 +5,7 @@ draft = false
 categories = "todo"
 tags = ["linux"]
 series = "headline"
+slug = "hello-blog"
 [params]
     author = "NotHimmel"
 +++
