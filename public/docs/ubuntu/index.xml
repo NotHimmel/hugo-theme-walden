@@ -23,12 +23,5 @@
       <guid>http://localhost:1313/docs/ubuntu/ubuntu-desktop-app/</guid>
       <description>&lt;p&gt;Ubuntu 桌面系统有很多实用的应用软件，通常是和 Windows 系统下的应用软件是对标的；Ubuntu 软件仓库提供的程序的最大特点，也可以说是优点，就是绝大多数是开源的。&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Ubuntu 桌面 - 工具</title>
-      <link>http://localhost:1313/docs/ubuntu/ubuntu-desktop-tool/</link>
-      <pubDate>Sat, 31 Jul 2021 13:16:03 +0800</pubDate>
-      <guid>http://localhost:1313/docs/ubuntu/ubuntu-desktop-tool/</guid>
-      <description>&lt;p&gt;Ubuntu 有许多工具，实在让人爱不释手。这些工具的使用多半是采用命令方式，随着键盘的敲击声响起，一种随心所欲的感觉油然而生。&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
